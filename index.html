@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог Хен В.</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<header>
+    <img width="300"src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="Картинка">
+    <nav id="menu">
+        <ul>
+            <li><a href="#">Фильмы</a>
+                <ul>
+                    <li><a href="#">Скоро</a></li> 
+                    <li><a href="#">Прошли</a></li>
+                </ul>
+            
+            <li><a href="#">Покупка билетов</a>
+            <ul>
+                <li><a href="#">2 декабря</a></li> 
+                <li><a href="#">3 декабря</a></li>
+                <li><a href="#">4 декабря</a></li>
+                <li><a href="#">5 декабря</a></li>
+                <li><a href="#">6 декабря</a></li>
+            </ul>
+        </li>
+        <li><a href="#">История</a>
+            <ul>
+                <li><a href="#">Герои</a></li> 
+                <li><a href="#">Злодеи</a></li>
+            </ul>
+        <li><a href="#">Отзовы</a>
+            <ul>
+                <li><a href="#">5 звезды</a></li> 
+                <li><a href="#">4 звезды</a></li>
+                <li><a href="#">3 звезды</a></li> 
+                <li><a href="#">2 звезды</a></li>
+                <li><a href="#">1 звезды</a></li> 
+            </ul>
+        </ul>
+    </nav>
+ </header>
+ <main>
+      <div> 
+      <div class="post">
+         <img height="250" src="data:image/jpeg;base64,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" alt="spiderman">
+         <div>
+             <h3> Spider Man</h3>
+             <p>Герой американских комиксов Marvel Comics, обладающий сверхспособностями: силой, ловкостью, легкостью передвижения во всех направлениях при помощи «паутины».</p>
+             <a href="post1.html">Узнать больше</a>
+         </div>
+       </div>   
+       <div class="post">
+        <img height="250" src="https://cdn3.static1-sima-land.com/items/1062960/0/700.jpg?v=1563203613" alt="Iron Man">
+        <div>
+            <h3>Iron Man</h3>
+            <p>Эксцентричный гений, миллионер, дамский угодник и филантроп Тони Старк также является супергероем в броне, известным как Железный Человек.</p>
+            <a href="post2.html">Узнать больше</a>
+        </div>
+      </div> 
+      <div class="post">
+        <img height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRASbITFz7md9ehzIImPo5kkayuPfylbOL7Vw&usqp=CAU" alt="Venom">
+        <div>
+            <h3>Venom</h3>
+            <p>В центре сюжета — Веном, один из самых известных антигероев вселенной Человека-паука. </p>
+            <a href="post3.html">Узнать больше</a>
+        </div>
+      </div>  
+      </div>
+</main>
+<footer>
+    <div>
+        <div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rQeRU9PdLzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_t7jslJ7Ang" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png">
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
